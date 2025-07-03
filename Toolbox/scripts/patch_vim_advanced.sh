@@ -10,7 +10,7 @@ export DESCRIPTION="This script will patch VIM"
 VIM=$(on -f mmx /eso/bin/dumb_persistence_reader 0 3221422082 2> /dev/null)
 VIM=$(echo $VIM | awk '{print toupper($0)}')  
 
-echo "This script will patch VIM to custom choosen variables"
+echo "This script will patch VIM to custom chosen variables"
 
 # Include info script
 . /eso/hmi/engdefs/scripts/mqb/util_info.sh
