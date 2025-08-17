@@ -24,7 +24,7 @@ Customize your MIB2HIGH unit graphics, patch Android Auto so it can run custom a
 - No. That's a SWaP feature, and your dealer is happy to help you.
 
 ## Why do I get a variant-conflict error?
-- This happens when you tried installing it on a non MIB2-HIGH system. It will **not** work on MIB1 or MIB2 Standard units. Discover Media / Compostion Media is not MIB2 HIGH!
+- This happens when you tried installing it on a non MIB2-HIGH system. It will **not** work on MIB1 or MIB2 Standard units. Discover Media / Composition Media is not MIB2 HIGH!
 
 ## Why do I get a "script not found" error?
 - Make sure you are using the latest version of the script.

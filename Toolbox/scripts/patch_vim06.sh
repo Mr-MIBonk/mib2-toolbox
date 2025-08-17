@@ -47,7 +47,7 @@ if [ ! -z $VIM 2>/dev/null ]; then
 			echo "Calculating new checksum"
 			# Include CRC utility
 			. /eso/hmi/engdefs/scripts/mqb/util_crc16.sh $VIMPATCH
-			# Patching persistence adress 
+                        # Patching persistence address
 			VIMPATCH=$VIMPATCH$crcsum
 			on -f mmx /net/mmx/eso/bin/apps/pc b:0:3221422082 $VIMPATCH
 			on -f mmx /net/mmx/eso/bin/apps/pc b:0:1 0
